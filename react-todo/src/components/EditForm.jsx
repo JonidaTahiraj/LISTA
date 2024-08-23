@@ -14,7 +14,6 @@ const EditForm = ({ editedTask, updateTask, }) => {
     <div
       role="dialog"
       aria-labelledby="editTask"
-      onClick={(e) => {e.target === e.currentTarget}}
       >
       <form
         className="todo"

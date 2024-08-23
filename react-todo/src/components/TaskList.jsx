@@ -5,7 +5,7 @@ import styles from './TaskList.module.css';
 const TaskList = ({tasks, deleteTask, toggleTask, enterEditMode }) => {
   return (
     <ul className={styles.tasks}>
-      {tasks.sort().map(task => (
+      {tasks.map(task => (
         <TaskItem
           key={task.id}
           task={task}
